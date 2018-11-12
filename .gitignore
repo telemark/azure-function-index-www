@@ -1,3 +1,11 @@
+# IDE
+.vs
+.vscode
+.idea
+
+# Mac OS
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -59,3 +67,28 @@ typings/
 
 # next.js build output
 .next
+
+# Azure
+bin
+obj
+csx
+edge
+Publish
+
+*.user
+*.suo
+*.cscfg
+*.Cache
+project.lock.json
+
+/packages
+/TestResults
+
+/tools/NuGet.exe
+/App_Data
+/secrets
+/data
+.secrets
+appsettings.json
+local.settings.json
+package-lock.json

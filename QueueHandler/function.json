@@ -1,0 +1,19 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "testqueuejobs",
+      "connection": "SERVICEBUS_CONNECTION"
+    },
+    {
+      "name": "mySbQueue",
+      "type": "serviceBus",
+      "direction": "out",
+      "queueName": "testqueue",
+      "connection": "SERVICEBUS_CONNECTION"
+    }
+  ]
+}
