@@ -5,14 +5,14 @@
       "name": "mySbMsg",
       "type": "serviceBusTrigger",
       "direction": "in",
-      "queueName": "testqueuejobs",
+      "queueName": "wwwindexqueue",
       "connection": "SERVICEBUS_CONNECTION"
     },
     {
       "name": "mySbQueue",
       "type": "serviceBus",
       "direction": "out",
-      "queueName": "testqueue",
+      "queueName": "searchindexqueue",
       "connection": "SERVICEBUS_CONNECTION"
     }
   ]
