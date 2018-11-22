@@ -14,6 +14,6 @@ module.exports = async function (context, mySbMsg) {
     context.bindings.mySbQueue = Object.assign({}, { id: index.id, payload: index })
     context.log(`job - ${mySbMsg.id} - finished`)
   } catch (error) {
-    context.log.error(`job - ${mySbMsg.id} - ${error}`)
+    context.log.error(`job - ${mySbMsg.id} - ${pageUrl} - ${error}`)
   }
 }
