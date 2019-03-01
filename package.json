@@ -56,7 +56,7 @@
   "dependencies": {
     "axios": "0.18.0",
     "cheerio": "1.0.0-rc.2",
-    "normalize-html-whitespace": "0.2.0",
+    "normalize-html-whitespace": "1.0.0",
     "uuid-random": "1.0.6"
   }
 }
