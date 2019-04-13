@@ -57,6 +57,6 @@
     "axios": "0.18.0",
     "cheerio": "1.0.0-rc.3",
     "normalize-html-whitespace": "1.0.0",
-    "uuid-random": "1.0.7"
+    "uuid-random": "1.0.8"
   }
 }
