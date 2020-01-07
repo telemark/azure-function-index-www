@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/telemark/azure-function-index-www#readme",
   "devDependencies": {
-    "ava": "2.3.0",
+    "ava": "2.4.0",
     "coveralls": "3.0.9",
     "husky": "4.0.0",
     "nyc": "15.0.0",
